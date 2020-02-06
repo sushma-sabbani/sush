@@ -6,6 +6,6 @@ ENTRYPOINT exec java -jar /app.jar
 
 EXPOSE 8080
 
-RUN docker login -u="sushmasabbani" -p="Sushma@1532"
+RUN login -u="sushmasabbani" -p="Sushma@1532"
 
 RUN docker push sushmasabbani/task
