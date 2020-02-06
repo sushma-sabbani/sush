@@ -4,6 +4,7 @@ ADD target/helloworld-1.1.jar app.jar
 
 ENTRYPOINT exec java -jar /app.jar
 
-RUN login --username=sushmasabbani --email=sushma.sabbani@techwave.net
+EXPOSE 8080
+#RUN login --username=sushmasabbani --email=sushma.sabbani@techwave.net
 
-RUN docker push sushmasabbani/task
+#RUN docker push sushmasabbani/task
