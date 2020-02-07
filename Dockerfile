@@ -8,9 +8,9 @@ EXPOSE 8080
 
 CMD java - jar helloworld-1.1.jar
 
-RUN build -t sushmasabbani/task:1 
+RUN docker build -t sushmasabbani/task:1 
 
-RUN push sushmasabbani/task:1
+RUN docker push sushmasabbani/task:1
 
 #RUN docker login.
 
