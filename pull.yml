@@ -12,4 +12,4 @@
       enabled: yes
 
    - name: pulling image
-     shell: docker pull sushmasabbani/task1
+     shell: docker pull sushmasabbani/task
